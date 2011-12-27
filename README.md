@@ -13,5 +13,4 @@ supported:
 - http://noirfacade.livejournal.com/
 
 
-USAGE: fashionscrape.php [url]
-[url] = direct link to post
+USAGE: fashionscrape.php <direct url to post>
