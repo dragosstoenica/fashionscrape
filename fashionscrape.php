@@ -1,9 +1,9 @@
 #!/usr/bin/php
 <?php
 	/*
-	** fashion blog image scraper. 
-	** (C) mindwar - mindwar.ro 2010
-	*/
+	 *  fashion blog image scraper. 
+	 *  (C) mindwar - mindwar.ro 2010
+	 */
 
 	$sitedata = array(
 		'fashiongonerogue' => array(
