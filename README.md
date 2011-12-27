@@ -1,4 +1,8 @@
+Fashionscrape
+============
+
 supported:
+---------
 - http://fashiongonerogue.com/
 - http://www.touchpuppet.com/
 - http://fashiontography.blogspot.com/
