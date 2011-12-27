@@ -86,7 +86,7 @@
 	curl_setopt($curl, CURLOPT_URL, $target_url);
 	$thehtml = curl_exec($curl);
 
-	// @$html->loadHTMLFile($target_url);
+	/* @$html->loadHTMLFile($target_url); */
 
 	@$html->loadHTML($thehtml);
 	$xml = simplexml_import_dom($html);
