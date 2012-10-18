@@ -7,8 +7,8 @@
 
 	$sitedata = array(
 		'fashiongonerogue' => array(
-			'titlexpath' => '//div[@id="post-title"]/h2/a',
-			'photoxpath' => '//div[@class="copy  clearfix"]//img',
+			'titlexpath' => '//div[@id="single"]/h1',
+			'photoxpath' => '//div[@id="single"]/p[@align="center"]/img',
 			'url' => 'http://fashiongonerogue.com/',
 			'folder' => 'fashiongonerogue'
 		),
@@ -19,14 +19,14 @@
 			'folder' => 'touchpuppet'
 		),
 		'fashiontography' => array(
-			'titlexpath' => '//h3[@class="post-title entry-title"]/a',
+			'titlexpath' => '//div[@class="post hentry"]//h3',
 			'photoxpath' => '//div[@class="post-body entry-content"]//img',
-			'url' => 'http://fashiontography.blogspot.com/',
+			'url' => 'http://www.fashiontography.net',
 			'folder' => 'fashiontography'
 		),
 		'calikartel' => array(
-			'titlexpath' => '//h1[@class="title"]/a',
-			'photoxpath' => '//div[@class="content"]//img',
+			'titlexpath' => '//h1[@class="post-title entry-title"]',
+			'photoxpath' => '//div[@class="entry-content clearfix"]//img',
 			'url' => 'http://calikartel.com/',
 			'folder' => 'calikartel'
 		),
@@ -49,7 +49,7 @@
 			'folder' => 'fashioneditorials'
 		),
 		'noirfacade' => array(
-			'titlexpath' => '//div[@style="margin-left: 30px"]/p//b',
+			'titlexpath' => '//h1[@class="b-singlepost-title"]',
 			'photoxpath' => '//center//img',
 			'url' => 'http://noirfacade.livejournal.com/',
 			'folder' => 'noirfacade'
