@@ -43,8 +43,8 @@
 			'folder' => 'thephotolink'
 		),
 		'fashioneditorials' => array(
-			'titlexpath' => '//h1[@class="entry-title"]',
-			'photoxpath' => '//div[@id="content"]//img',
+			'titlexpath' => '//div[@id="entry"]//h1',
+			'photoxpath' => '//div[@class="the_content"]//img',
 			'url' => 'http://www.fashioneditorials.com/',
 			'folder' => 'fashioneditorials'
 		),
