@@ -53,7 +53,13 @@
 			'photoxpath' => '//center//img',
 			'url' => 'http://noirfacade.livejournal.com/',
 			'folder' => 'noirfacade'
-		)		
+		),
+		'modelcouture' => array(
+			'titlexpath' => '//h1[@class="b-singlepost-title"]',
+			'photoxpath' => '//div[@class="b-singlepost-body"]//img',
+			'url' => 'http://modelcouture.livejournal.com/',
+			'folder' => 'modelcouture'
+		)
 	);
 
 	echo "fashion blog photo downloader - (c) 2010 mindwar\n\n";
@@ -95,7 +101,7 @@
 	// pt photos
 	$photos = $xml->xpath($thesite['photoxpath']);
 
-	$folder_name = $title[0];
+	$folder_name = trim($title[0]);
 
 	$chars = array('!','@','#','$','%','^','&','*','`','~',',','.',':',';','|','/');
 
